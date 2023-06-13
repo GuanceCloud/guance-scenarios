@@ -1,0 +1,39 @@
+Notification: {
+  DingTalk
+
+  Wechat
+
+  Webhook
+
+  Email
+}
+
+Member Group: {
+  Member
+}
+
+Alert: Alert Policy
+Alert: {
+  shape: class
+
+  targets
+}
+
+Alert.targets -> Notification
+Alert.targets -> Member Group
+
+Monitor: {
+  shape: class
+
+  alert_policy_id
+}
+
+Monitor -> Alert
+
+Mute -> Alert
+
+Mute: {
+  shape: class
+
+  time_options
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Terraform Introuction",
+  "description": "Use Terraform create an observability stack",
+  "details": {
+    "intro": {
+      "text": "README.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "**",
+        "target": "/src",
+        "chmod": "+w"
+      }
+    ]
+  }
+}

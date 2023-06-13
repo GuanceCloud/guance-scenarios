@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "path": "terraform-introduction", "title": "Use Terraform create an observability stack" },
+    { "path": "visualization-library", "title": "Use Guance CLI and Terraform build a visualization library" }
+  ]
+}

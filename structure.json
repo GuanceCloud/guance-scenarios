@@ -1,0 +1,6 @@
+{
+    "items": [
+        { "path": "community", "title": "The lab created by Guance Community" },
+        { "path": "official", "title": "The lab created by Guance Cloud" }
+    ]
+}
