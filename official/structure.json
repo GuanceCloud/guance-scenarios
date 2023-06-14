@@ -1,6 +1,8 @@
 {
+  "title": "Observability Official Labs",
+  "description": "Enter the world of Observability with Guance Cloud",
   "items": [
-    { "path": "terraform-introduction", "title": "Use Terraform create an observability stack" },
-    { "path": "visualization-library", "title": "Use Guance CLI and Terraform build a visualization library" }
+    { "path": "terraform-introduction" },
+    { "path": "visualization-library" }
   ]
 }

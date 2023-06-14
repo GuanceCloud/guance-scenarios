@@ -1,6 +1,8 @@
 {
+    "title": "Observability Labs",
+    "description": "Enter the world of Observability with Guance Cloud",
     "items": [
-        { "path": "community", "title": "The lab created by Guance Community" },
-        { "path": "official", "title": "The lab created by Guance Cloud" }
+        { "path": "community" },
+        { "path": "official" }
     ]
 }

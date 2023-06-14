@@ -8,22 +8,22 @@
     },
     "steps": [
       {
-        "text": "step1.md"
+        "text": "steps/step1.md"
       },
       {
-        "text": "step2.md"
+        "text": "steps/step2.md"
       },
       {
-        "text": "step3.md"
+        "text": "steps/step3.md"
       },
       {
-        "text": "step4.md"
+        "text": "steps/step4.md"
       },
       {
-        "text": "step5.md"
+        "text": "steps/step5.md"
       },
       {
-        "text": "step6.md"
+        "text": "steps/step6.md"
       }
     ]
   },
