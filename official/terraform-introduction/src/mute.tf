@@ -1,5 +1,3 @@
-
-
 resource "guance_mute" "demo" {
   // mute ranges
   mute_ranges = [

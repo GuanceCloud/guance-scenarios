@@ -8,6 +8,9 @@
     },
     "steps": [
       {
+        "text": "steps/prepare.md"
+      },
+      {
         "text": "steps/step1.md"
       },
       {
@@ -37,7 +40,7 @@
     "host01": [
       {
         "file": "**",
-        "target": "/src",
+        "target": "~/lab",
         "chmod": "+w"
       }
     ]

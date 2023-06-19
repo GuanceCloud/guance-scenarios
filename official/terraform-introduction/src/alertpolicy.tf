@@ -2,18 +2,18 @@ data "guance_members" "demo" {
   filters = [
     {
       name   = "email"
-      values = [var.email]
+      values = [var.email] # you can also add more emails here
     }
   ]
 }
 
 resource "guance_membergroup" "demo" {
-  name       = "lab-official-introduction"
+  name       = var.name
   member_ids = data.guance_members.demo.items[*].id
 }
 
 resource "guance_alertpolicy" "demo" {
-  name           = "oac-demo"
+  name           = var.name
   silent_timeout = "1h"
 
   statuses = [
