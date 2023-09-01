@@ -3,7 +3,7 @@
   "description": "Use Terraform create an observability stack",
   "details": {
     "intro": {
-      "text": "README.md",
+      "text": "intro.md",
       "background": "setup.sh"
     },
     "steps": [

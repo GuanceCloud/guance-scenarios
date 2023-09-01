@@ -1,0 +1,42 @@
+{
+  "title": "Grafana Importer Introduction",
+  "description": "Importer Grafana dashboard by Guance CLI tookit",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "text": "prepare.md"
+      },
+      {
+        "text": "step1.md"
+      },
+      {
+        "text": "step2.md"
+      },
+      {
+        "text": "step3.md"
+      },
+      {
+        "text": "step4.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "**",
+        "target": "~/src",
+        "chmod": "+w"
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
-# Step3: Configure Mute Rule
+## Configure Mute Rule
 
 > All the code is in `~/lab/src/mute.tf`, you can open it on the right side.
 
-## Create mute rule
+### Create mute rule
 
 The mute rule will mute the alert policy we created above.
 

@@ -1,4 +1,4 @@
-# Step5: Check Results
+## Check Results
 
 Open the Guance console, you can see the observability stack is created.
 

@@ -10,6 +10,12 @@ require (
 )
 
 require (
+	github.com/mattn/go-runewidth v0.0.4 // indirect
+	github.com/russross/blackfriday v1.6.0 // indirect
+	github.com/shurcooL/go v0.0.0-20230706063926-5fe729b41b3a // indirect
+)
+
+require (
 	cloud.google.com/go v0.105.0 // indirect
 	cloud.google.com/go/compute v1.12.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.1 // indirect
@@ -41,6 +47,7 @@ require (
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/shurcooL/markdownfmt v0.0.0-20210117162146-75134924a9fd
 	github.com/tmccombs/hcl2json v0.3.3 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/zclconf/go-cty v1.9.1 // indirect
