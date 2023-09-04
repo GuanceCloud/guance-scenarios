@@ -28,6 +28,3 @@ To use the Guance Cloud console, please follow these steps:
 3. Import the generated JSON file.
 
 In this example, we will use the Terraform module to create the dashboard on Guance Cloud in the next step.
-
-
-
