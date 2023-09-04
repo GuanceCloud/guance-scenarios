@@ -1,0 +1,9 @@
+{
+    "title": "Collection A",
+    "description": "The collection A",
+    "items": [
+        {
+            "path": "module-b"
+        }
+    ]
+}

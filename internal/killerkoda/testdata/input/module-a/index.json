@@ -1,0 +1,34 @@
+{
+    "title": "Module A",
+    "description": "This is a module description",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "background": "setup.sh"
+      },
+      "steps": [
+        {
+          "text": "prepare.md"
+        },
+        {
+          "text": "step1.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    },
+    "interface": {
+      "layout": "ide"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "**",
+          "target": "~/src",
+          "chmod": "+w"
+        }
+      ]
+    }
+  }
+  

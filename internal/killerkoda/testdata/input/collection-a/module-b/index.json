@@ -1,0 +1,26 @@
+{
+  "title": "Module B",
+  "description": "This is a module description",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "**",
+        "target": "~/src",
+        "chmod": "+w"
+      }
+    ]
+  }
+}

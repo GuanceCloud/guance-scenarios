@@ -1,10 +1,10 @@
-# Prepare the environment
+## Prepare the environment
 
-## Lab environment
+### Lab environment
 
 In this course we will use the [Terraform](https://www.terraform.io/) to create the observability stack. All of the related tools is installed in the lab environment. You can open the integrated-terminal of IDE on the right side.
 
-## Login Guance
+### Login Guance
 
 The first, you should login Guance with your account.
 
@@ -17,7 +17,7 @@ The first, you should login Guance with your account.
 export GUANCE_ACCESS_TOKEN=<your key id>
 ```
 
-## Understand the lab environment
+### Understand the lab environment
 
 In the right side, you can see the lab environment. It contains the following files and directories:
 

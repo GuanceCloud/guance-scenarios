@@ -1,0 +1,12 @@
+{
+    "title": "KillerCoda Test collection",
+    "description": "The online labs provided by Guance Cloud",
+    "items": [
+        {
+            "path": "collection-a"
+        },
+        {
+            "path": "module-a"
+        }
+    ]
+}

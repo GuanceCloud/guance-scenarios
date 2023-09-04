@@ -1,4 +1,4 @@
-# Step6: Clean Up
+## Clean Up
 
 ```bash
 terraform destroy

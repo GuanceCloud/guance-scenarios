@@ -1,6 +1,6 @@
 {
-  "title": "Terraform Introuction",
-  "description": "Use Terraform create an observability stack",
+  "title": "Grafana Importer Introduction",
+  "description": "Importer Grafana dashboard by Guance CLI tookit",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,25 +8,22 @@
     },
     "steps": [
       {
-        "text": "steps/prepare.md"
+        "text": "prepare.md"
       },
       {
-        "text": "steps/step1.md"
+        "text": "step1.md"
       },
       {
-        "text": "steps/step2.md"
+        "text": "step2.md"
       },
       {
-        "text": "steps/step3.md"
+        "text": "step3.md"
       },
       {
-        "text": "steps/step4.md"
+        "text": "step4.md"
       },
       {
-        "text": "steps/step5.md"
-      },
-      {
-        "text": "steps/step6.md"
+        "text": "step5.md"
       }
     ]
   },
@@ -40,7 +37,7 @@
     "host01": [
       {
         "file": "**",
-        "target": "~/lab",
+        "target": "~/src",
         "chmod": "+w"
       }
     ]

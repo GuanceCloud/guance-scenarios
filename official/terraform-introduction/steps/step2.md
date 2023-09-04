@@ -1,8 +1,8 @@
-# Step2: Configure Alert Policy
+## Configure Alert Policy
 
 > All the code is in `~/lab/src/alertpolicy.tf`, you can open it on the right side.
 
-## Create member group by email
+### Create member group by email
 
 In this example, the alert policy will send alerts to a member group. So we need to get the member id by email. And create a new member group from them.
 
@@ -22,7 +22,7 @@ resource "guance_membergroup" "demo" {
 }
 ```
 
-## Create alert policy
+### Create alert policy
 
 The alert policy will send alerts to the member group we created above.
 

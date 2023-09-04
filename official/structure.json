@@ -1,8 +1,8 @@
 {
   "title": "Observability Official Labs",
-  "description": "Enter the world of Observability with Guance Cloud",
+  "description": "The online labs provided by Guance Cloud",
   "items": [
     { "path": "terraform-introduction" },
-    { "path": "visualization-library" }
+    { "path": "grafana-importer" }
   ]
 }
