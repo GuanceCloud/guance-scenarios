@@ -4,7 +4,7 @@ Terraform is an open-source infrastructure as code software tool created by Hash
 
 ### The entities
 
-![Intro](./images/intro.svg)
+![Intro](./images/intro.png)
 
 In this lab, we will implement a typical monitoring and alerting scenario together. Configure a monitor and an alert policy to notify a member group or notification object, such as an IM group, whenever a condition is triggered. At the same time, configure an additional silent rule to silence the alert message when the monthly scheduled downtime arrives for system maintenance.
 
