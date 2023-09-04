@@ -3,16 +3,17 @@ Grafana Importer Introduction
 
 Importer Grafana dashboard by Guance CLI tookit
 
-[TOC]
-
-## Introduction
+Introduction
+------------
 
 ![Preview](images/preview.png)
+
+Taking Ubuntu as an example, this guide demonstrates how to use the command line interface to import the Grafana dashboard [Node Exporter Full](https://grafana.com/grafana/dashboards/1860-node-exporter-full/) using Guance CLI.
 
 Step 0: Prepare
 ---------------
 
-### Install Guance CLI Toolkit
+The first step is to install the Guance CLI by running the command:
 
 ```bash
 echo "deb [trusted=yes] https://releases.guance.io/apt/ /" | sudo tee /etc/apt/sources.list.d/guance.list
@@ -20,11 +21,7 @@ sudo apt update
 apt install guance
 ```
 
-### Install the additional tools for the lab
-
-```bash
-apt install docker docker-compose terraform
-```
+For other ways to install Guance CLI, please refer to [Guance CLI Installation](https://github.com/GuanceCloud/guance-cli).
 
 Step 1: Download the Grafana Dashboard JSON
 -------------------------------------------
@@ -37,14 +34,20 @@ Or use `wget` to download it:
 wget https://grafana.com/api/dashboards/1860/revisions/31/download -O grafana.json
 ```
 
+After running the command, a Grafana dashboard json file named `grafana.json` will be generated in the local disk.e used to import This file can b the dashboard to Guance Cloud.
+
 Step 2: Use Guance CLI to convert grafana as Terraform module
 -------------------------------------------------------------
+
+The next step is to use Guance CLI to convert the Grafana dashboard JSON file into a Terraform module.
+
+The CLI command is:
 
 ```shell
 guance iac import grafana -f ./input.json -t terraform-module -o ./out
 ```
 
-You will get a Terraform module at `./out` folder. The folder structure is:
+You will get a Terraform module in the `./out` folder. The folder structure is:
 
 ```
 .
@@ -55,14 +58,20 @@ You will get a Terraform module at `./out` folder. The folder structure is:
 └── versions.tf
 ```
 
-The `manifest.json` is the dashboard json file for Guance Cloud. You can also use it to import the dashboard to Guance Cloud Console directly.
+The `manifest.json` file is used as a dashboard JSON file for Guance Cloud. Additionally, it can be utilized to import the dashboard directly to the Guance Cloud Console.
 
-In this example, we will use the Terraform module to create the dashboard on Guance Cloud.
+To use the Guance Cloud console, please follow these steps:
 
-Step 3: Run the Terraform apply to create dashboard
----------------------------------------------------
+1.	Open [Create Dashboard Page](https://console.guance.com/scene/dashboard/createDashboard).
+2.	Click `Import Template`.
+3.	Import the generated JSON file.
 
-So you can apply it to create the real dashboard resources on Guance Cloud.
+In this example, we will use the Terraform module to create the dashboard on Guance Cloud in the next step.
+
+Step 3: Use Terraform to create a dashboard
+-------------------------------------------
+
+With this, you can utilize it to generate actualrces on the Guance Cloud platform. dashboard resou
 
 ```shell
 cd ./out
@@ -72,6 +81,8 @@ terraform apply
 
 Step 4: Run the DataKit to collect metrics from Prometheus
 ----------------------------------------------------------
+
+The next step is to use the DataKit agent to upload real-world metrics data to Guance Cloud and display it on the dashboard that was just created.
 
 For example, the DataKit config is:
 
@@ -93,3 +104,17 @@ docker compose up -d
 ```
 
 Wait for a while, then you can see the metrics is uploaded and show on dashboard of Guance Cloud.
+
+Step 5: Completed!
+------------------
+
+You have successfully imported a dashboard into Grafana. You can now view the dashboard on [Dashboard List](https://console.guance.com/scene/dashboard/list).
+
+Here is a screenshot for the succeed result.
+
+![Preview](images/preview.png)
+
+If you want to learn more, there are some materials may be helpful.
+
+1.	[All the examples about Grafana Importer](https://github.com/GuanceCloud/guance-cli/tree/main/specs/iac/import/grafana)
+2.	[Guance CLI Homepage](https://github.com/GuanceCloud/guance-cli)

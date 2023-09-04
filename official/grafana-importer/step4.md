@@ -1,5 +1,7 @@
 ## Run the DataKit to collect metrics from Prometheus
 
+The next step is to use the DataKit agent to upload real-world metrics data to Guance Cloud and display it on the dashboard that was just created.
+
 For example, the DataKit config is:
 
 ```toml

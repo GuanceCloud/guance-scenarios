@@ -1,6 +1,6 @@
-## Run the Terraform apply to create dashboard
+## Use Terraform to create a dashboard
 
-So you can apply it to create the real dashboard resources on Guance Cloud.
+With this, you can utilize it to generate actualrces on the Guance Cloud platform. dashboard resou
 
 ```shell
 cd ./out
