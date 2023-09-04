@@ -40,7 +40,7 @@
     "host01": [
       {
         "file": "**",
-        "target": "~/src"
+        "target": "/lab"
       }
     ]
   }
