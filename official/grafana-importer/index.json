@@ -39,6 +39,10 @@
         "file": "**",
         "target": "/lab",
         "chmod": "+x"
+      },
+      {
+        "file": "./README.md",
+        "target": "~/"
       }
     ]
   }
