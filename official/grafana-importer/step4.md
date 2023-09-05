@@ -6,7 +6,7 @@ The next step is to use the DataKit agent to upload real-world metrics data to G
 
 ### Create DataKit configuration
 
-Edit the `~/prom.conf` file, see the following content:
+Edit the `~/lab/prom.conf` file, see the following content:
 
 ```toml
 [[inputs.prom]]
@@ -27,7 +27,7 @@ This configuration will do the following things:
 
 ### Create a Docker Compose file
 
-Edit the `~/docker-compose.yml` file. See the following content:
+Edit the `~/lab/docker-compose.yml` file. See the following content:
 
 ```yaml
 version: '3'

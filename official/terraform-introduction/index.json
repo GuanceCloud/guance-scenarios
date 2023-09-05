@@ -41,7 +41,7 @@
       {
         "file": "**",
         "target": "~/lab",
-        "chmod": "+x"
+        "chmod": "+w"
       }
     ]
   }
