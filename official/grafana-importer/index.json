@@ -25,21 +25,20 @@
       {
         "text": "step5.md"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "**",
+          "target": "~/"
+        }
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
   },
   "interface": {
     "layout": "ide"
-  },
-  "assets": {
-    "host01": [
-      {
-        "file": "**",
-        "target": "~/",
-        "chmod": "+x"
-      }
-    ]
   }
 }
