@@ -52,7 +52,7 @@ src/ # The directory contains all the terraform files.
 Step 1: Configure Monitor
 -------------------------
 
-> All the code is in `~/lab/src/monitor.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/monitor.tf`, you can open it on the right side.
 
 Monitor is the core of Guance. It is a JSON file that describes the metrics to be collected and the alert policies to be applied.
 
@@ -78,7 +78,7 @@ resource "guance_monitor" "demo" {
 Step 2: Configure Alert Policy
 ------------------------------
 
-> All the code is in `~/lab/src/alertpolicy.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/alertpolicy.tf`, you can open it on the right side.
 
 ### Create member group by email
 
@@ -134,7 +134,7 @@ resource "guance_alertpolicy" "demo" {
 Step 3: Configure Mute Rule
 ---------------------------
 
-> All the code is in `~/lab/src/mute.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/mute.tf`, you can open it on the right side.
 
 ### Create mute rule
 

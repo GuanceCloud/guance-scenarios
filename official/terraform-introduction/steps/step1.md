@@ -1,6 +1,6 @@
 ## Configure Monitor
 
-> All the code is in `~/lab/src/monitor.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/monitor.tf`, you can open it on the right side.
 
 Monitor is the core of Guance. It is a JSON file that describes the metrics to be collected and the alert policies to be applied.
 

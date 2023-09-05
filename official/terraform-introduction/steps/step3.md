@@ -1,6 +1,6 @@
 ## Configure Mute Rule
 
-> All the code is in `~/lab/src/mute.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/mute.tf`, you can open it on the right side.
 
 ### Create mute rule
 

@@ -40,7 +40,8 @@
     "host01": [
       {
         "file": "**",
-        "target": "/lab"
+        "target": "~/lab",
+        "chmod": "+x"
       }
     ]
   }

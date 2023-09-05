@@ -1,6 +1,6 @@
 ## Configure Alert Policy
 
-> All the code is in `~/lab/src/alertpolicy.tf`, you can open it on the right side.
+**Note**: All the code is in `~/lab/src/alertpolicy.tf`, you can open it on the right side.
 
 ### Create member group by email
 
